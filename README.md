@@ -46,7 +46,7 @@ It includes an interactive Streamlit dashboard for visualizing predictions, moni
 <!-- Add your dashboard screenshot at docs/dashboard-preview.png -->
 
 <p align="center">
-  <img src="deshboard.png" alt="AeroGuard AI Dashboard" width="100%">
+  <img src="docs/deshboard.png" alt="AeroGuard AI Dashboard" width="100%">
 </p>
 
 ---
