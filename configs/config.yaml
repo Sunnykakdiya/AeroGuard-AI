@@ -1,0 +1,24 @@
+project:
+  name: AuroGuard AI
+  version: 1.0.0
+
+dataset:
+  name: NASA_CMAPSS
+  subset: FD001
+  data_path: data/raw
+  processed_path: data_processed
+
+model:
+  primary: xgboost
+  random_state: 42
+  rul_cap: 125
+
+training:
+  validation_size: 0.2
+  batch_size: 64
+  epochs: 50
+
+paths:
+  models: artifacts/models
+  preprocessors: artifacts/preprocessors
+  reports: artifacts/reports

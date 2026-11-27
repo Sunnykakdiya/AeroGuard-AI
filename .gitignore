@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+aeroguard/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# Generated reports and figures
+artifacts/reports/
+artifacts/figures/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+# Models not required by the current dashboard
+artifacts/models/randomforest_FD001.pkl
+artifacts/models/xgboost_FD001.pkl
